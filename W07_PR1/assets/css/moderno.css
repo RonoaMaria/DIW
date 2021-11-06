@@ -1,0 +1,335 @@
+@font-face {
+	font-family: 'myLocalFont';
+	src: url(../fonts/Quantum\ Profit.ttf);
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	text-align: center;
+}
+
+hr {
+	background-color: #F9D862;
+	border: 1px solid #F9D862;
+	width: 20em;
+	border-radius: 7px 7px 7px 7px;
+	height: 2px;
+	margin: 2em auto;
+}
+
+main {
+	width: 60vw;
+	border-radius: 2%;
+	display: inline-block;
+	min-width: 800px;
+	background-color: #F5E5A6;
+}
+
+/* ---- ASIDE ----- */
+
+aside {
+	width: 50%;
+	float: left;
+	margin-top: 2rem;
+	padding: 1em;
+}
+
+aside #sobre_mi_aside {
+	text-align: center;
+	width: 100%;
+	background-color: #6767ff;
+	background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='23.09' height='40' viewBox='0 0 34.64101615137755 60' patternUnits='userSpaceOnUse' patternTransform='rotate(135)'%3E%3Crect width='100%25' height='100%25' fill='rgba(178, 245, 234, 1)'/%3E%3Cpath d='M51.96 30L51.96 50L34.64 60L34.64 40z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 30L17.32 50L0 60L0 40z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M34.64 0L34.64 20L17.32 30L17.32 10z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M34.64 60L34.64 80L17.32 90L17.32 70z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M34.64 60L17.32 50L17.32 30L34.64 40z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M0 60L-17.32 50L-17.32 30L0 40z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M17.32 30L0 20L0 0L17.32 10z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M17.32 90L0 80L0 60L17.32 70z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' background='true' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' background='true' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' background='true' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' background='true' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' background='true' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' background='true' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' background='true' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' background='true' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' fill='rgba(236, 201, 75, 1)'/%3E%3Cpath d='M34.64 40L34.64 40L34.64 40L34.64 40z' stroke-linejoin='miter' background='true' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M0 40L0 40L0 40L0 40z' stroke-linejoin='miter' background='true' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 10L17.32 10L17.32 10L17.32 10z' stroke-linejoin='miter' background='true' fill='rgba(129, 230, 217, 1)'/%3E%3Cpath d='M17.32 70L17.32 70L17.32 70L17.32 70z' stroke-linejoin='miter' background='true' fill='rgba(129, 230, 217, 1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+}
+
+section#sobre_mi_aside h1 {
+	margin-top: 0.4em;
+	font-size: 2em;
+	color: #F47816;
+	font-family: 'myLocalFont', sans-serif;
+}
+
+section#sobre_mi_aside h3 {
+	padding: 0.3em;
+	width: 10em;
+	background-color: #F6C65A;
+	font-size: 1.1em;
+	color: white;
+	margin: 1em auto;
+}
+
+section#sobre_mi_aside p {
+	margin-top: 2em;
+	font-size: 1.1em;
+	color: #F47816;
+	text-align: justify;
+	background-color: #F5E5A6;
+	font-weight: 400;
+}
+
+section#sobre_mi_aside p::first-line {
+	font-weight: bold;
+}
+
+img#imagen_de_mi {
+	margin-top: 1em;
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+}
+
+img#imagen_de_mi:hover {
+	transform: scale(1.5);
+	transition: 0.5s;
+}
+
+section#redes_sociales {
+	display: flex;
+	margin-top: 2em;
+	justify-content: space-between;
+	
+}
+
+section#contacto_aside {
+	margin-top: 2em;	
+}
+
+div.contacto {
+	display: flex;
+	margin-bottom: 1em;
+}
+
+section#contacto_aside div:last-child:hover {
+	color: #F6C65A;
+}
+
+section#contacto_aside div:first-child:hover:after {
+	content: "/ perezescrivaf@gmail.com";
+	margin-left: 1em;
+	font-weight: bold;
+}
+
+h3.info {
+	text-align: center;
+	margin: 2em auto;
+	background-color: #F6C65A;
+	font-size: 1.1em;
+	color: white;
+	width: 10em;
+	padding: 0.3em;
+}
+
+div.contacto img {
+	margin-right: 1em;
+}
+
+section#redes_sociales div {
+	display: inline-block;
+}
+
+div.contacto img+p {
+	font-weight: bold;
+}
+
+
+#redes_sociales div img{
+	width: 2em;
+}
+
+
+
+/* ------ HEADER ------*/
+
+header {
+	width: 60vw;
+	margin: 0 auto;
+}
+
+button[onclick] {
+	width: 15%;
+	background-color: #53C7DD;
+	cursor: pointer;
+	height: 40%;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 10px;
+	float: right;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+div#buttons {
+	height: 5vh;
+}
+
+/* -----  HEADER NAV ----- */
+
+header nav ul li{
+	display: inline-block;
+	width: 10%;
+	min-width: 50px;
+	padding: 5px;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 1em;
+	float: right;
+	margin-right: 1em;
+	background-color: #F6C65A;
+	border-radius: 10px;
+	font-weight: bold;
+	border: 2px solid #CCCBC7;
+	box-shadow: -4px -2px 17px 0px rgba(51, 50, 50, 0.75);
+}
+
+header nav ul li:hover {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+
+header nav ul li a:visited {
+	color: red;
+}
+
+header nav {
+	height: 7vh;
+	background: linear-gradient(273deg, #fcff9e 0%, #c67700 100%);
+	border-radius: 10px;
+}
+
+header nav ul li a {
+	color: white;
+}
+
+/* ---- SECTION ----- */
+
+section#right {
+	margin-top: 2rem;
+	width: 44%;
+	float:left;
+	padding: 0.2em;
+}
+
+div.titulo_icono {
+	display: flex;
+	width: 40%;
+	justify-content: center;
+	margin: 1em auto;
+	background-color: #F6C65A;
+}
+
+div.titulo_icono h2 {
+	color: white;
+}
+
+div.titulo_icono img{
+	margin-right: 1em;
+}
+
+div.formaciones {
+	margin-top: 1em;
+	text-align: center;
+}
+
+div.formaciones ul li:first-child {
+	font-weight: bold;
+	text-shadow: 7px 1px 12px rgba(150, 150, 150, 1);
+}
+
+div.formaciones ul li:before {
+	content: "Materia: ";
+	color:rgba(150, 150, 150, 1);
+	text-shadow: none;
+	font-weight: normal;
+}
+
+div.formaciones h2 {
+	color: #62E1E8;
+	font-weight: bold;
+	background-color: white;
+	display: inline-block;
+}
+
+div.formaciones h2::first-letter {
+	font-size: 1.2em;
+	color: #F6C65A;
+}
+
+div.formaciones p, div.formaciones ul, div.formaciones ul > li {
+	margin-top: 0.5em;
+}
+
+section#formacion div:not(.formaciones):nth-child(5) {
+	display: inline-block;
+	margin: 1em auto;
+	background-color: #F6C65A;
+	border-radius: 40%;
+}
+
+section#experiencia div.trabajo h3 {
+	color: #62E1E8;
+	margin-top: 1em;
+}
+
+section#experiencia a:last-child {
+	display: inline-block;
+	margin: 1em auto;
+	background-color: #F6C65A;
+	border-radius: 40%;
+}
+
+section#experiencia div.trabajo p:nth-child(2) {
+	margin-top: 1em;
+}
+
+section#experiencia div.trabajo ul li {
+	margin-top: 0.5em;
+}
+
+section#idiomas div#nivel_idiomas {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	margin-top: 2em;
+}
+
+section#idiomas h3 {
+	margin-bottom: 1em;
+}
+
+section#idiomas table,td {
+	border-collapse: collapse;
+	border: 3px solid #858381;
+}
+
+section#idiomas table {
+	margin-bottom: 1em;
+}
+
+section#habilidades_comunicacion a:last-child,
+section#idiomas a:last-child,
+section#habilidades_trabajo a:last-child {
+	display: inline-block;
+	margin: 1em auto;
+	background-color: #F6C65A;
+	border-radius: 40%;
+}
+
+section#idiomas div#nivel_idiomas div.idioma meter::-webkit-meter-bar {
+	background: white;
+}
+
+section#idiomas div#nivel_idiomas div.idioma meter::-webkit-meter-optimum-value {
+	background: linear-gradient(273deg, #fcff9e 0%, #c67700 100%);
+}
+
+section#idiomas div#nivel_idiomas div.idioma meter {
+	margin-top: 1em;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="author" content="Francesc Perez Escriva"/>
+	<meta name="keywords" content="Currículum, Curriculum, Vitae, Trabajo"/>
+	<meta name="description" content="Currículum Vitae hecho con HTML5"/>
+	<meta property="og:type" content="article">
+	<meta property="og:type" content="Currículum Vitae">
+	<meta property="og:description" content="Currículum Vitae de Francesc Perez Escriva, hecho con HTML5 y CSS">
+	<link id="moderno" rel="stylesheet" type="text/css" href="./assets/css/moderno.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<title>Currículum Vitae</title>
+	<script>
+		let toModerno = () => {
+			document.getElementById('moderno').href='./assets/css/moderno.css';
+		}
+		let toRetro = () => {
+			document.getElementById('moderno').href='./assets/css/retro.css';
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div id="buttons">
+			<button onclick="toModerno()">CSS Moderno</button>
+			<button onclick="toRetro()">CSS Retro</button>
+		</div>
+		<nav>
+			<ul id="nav_bar">
+				<li><a href="#formacion">Formación</a></li>
+				<li><a href="#experiencia">Experiencia</a></li>
+				<li><a href="#idiomas">Idiomas</a></li>
+				<li><a href="#habilidades_comunicacion">Comunicación</a></li>
+				<li><a href="#habilidades_trabajo">Trabajo</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<aside>
+			<section id="sobre_mi_aside">
+				<img id="imagen_de_mi" src="./assets/img/foto.png" alt="Imagen de mi">
+				<h1>FRANCESC PEREZ ESCRIVA</h1>
+				<h3>Desarrollador WEB</h3>
+				<p>Soy Francesc, un desarrollador web de Potries, el cual ha trabajado en varios pryectos de grandes aplicaciones WEB y tengo experiencia en: <abbr title="JavaScript">JS</abbr>,PHP, SQL y NodeJS</p>
+			</section>
+			<h3 class="info">Redes Sociales</h3>
+			<section id="redes_sociales">
+				<a href="https://www.instagram.com/" target="blank"><div class="iconos"><img src="./assets/img/instagramicon.svg" alt="Icono red social Instagram"></div></a>
+				<a href="https://www.twitter.com/" target="blank"><div class="iconos"><img src="./assets/img/twittericon.svg" alt="Icono red social Twitter"></div></a>
+				<a href="https://www.facebook.com/" target="blank"><div class="iconos"><img src="./assets/img/facebookicon.svg" alt="Icono red social Facebook"></div></a>
+				<a href="https://www.youtube.com/" target="blank"><div class="iconos"><img src="./assets/img/youtubeicon.svg" alt="Icono red social Youtube"></div></a>
+			</section>
+			<h3 class="info">Contacto</h3>
+			<section id="contacto_aside">
+				<div class="contacto">
+					<img src="./assets/img/mailicon.svg" alt="Icono de correo">
+					<p>francesc.perez.escriva@gmail.com</p>
+				</div>
+				<div class="contacto">
+					<img src="./assets/img/phoneicon.svg" alt="Icono de telefono">
+					<p>+34622016048</p>
+				</div>
+				<div class="contacto">
+					<img src="./assets/img/locationicon.svg" alt="Icono de direccion">
+					<p>Carrer de Dalt Nº16, Potries, Valencia</p>
+				</div>
+			</section>
+		</aside>
+		<section id="right">
+			<section id="formacion">
+				<div class="titulo_icono">
+					<img src="./assets/img/graduationicon.svg" alt="Icono de graduacion">
+					<h2>Formación</h2>
+				</div>	
+					<div class="formaciones">
+						<h2><strong><abbr title="Educación Secundaria Obligatoria">ESO</abbr></strong>: 2014 - 2018</h2>
+						<p><em><a href="https://mestreacasa.gva.es/web/valldelasafor" target="blank">IES Vall de la Safor, Villalonga</a></em></p>
+						<ul>
+							<li>Matematicas</li>
+							<li>Biologia y Geología</li>
+							<li>Greografia y Historia</li>
+							<li>Español</li>
+							<li>Ingles</li>
+							<li>Informática</li>
+						</ul>
+					</div>
+					<div class="formaciones">
+						<h2><strong><abbr title="Sistemas Microinformáticos en Red">SMR</abbr></strong>: 2018 - 2020</h2>
+						<p><em><a href="https://portal.edu.gva.es/mariaenriquez/" target="blank">IES María Enríquez, Gandia</a></em></p>
+						<ul>
+							<li>Redes Locales</li>
+							<li>Mantenimiento y Montaje de Equipos</li>
+							<li>Aplicaciones Ofimáticas</li>
+							<li>Sistemas Operativos</li>
+							<li>Aplicaciones Web</li>
+						</ul>
+					</div>
+					<div class="formaciones">
+						<h2><strong><abbr title="Desarrollo de aplicaciones Web">DAW</abbr></strong>: 2020 - 2022</h2>
+						<p><a href="https://portal.edu.gva.es/mariaenriquez/" target="blank"><em>IES María Enríquez, Gandia</em></a></p>
+						<ul>
+							<li>Desarrollo web en servidor</li>
+							<li>Desarrollo web en cliente</li>
+							<li>Despliegue de aplicaciones</li>
+							<li>Diseño de interfaces Web</li>
+						</ul>
+					</div>
+					<div>
+						<a href="#nav_bar"><img class="hacia_arriba" src="./assets/img/handicon.svg" alt="Icono para ir hacia arriba"></a>
+					</div>
+			</section>
+			<hr>
+			<section id="experiencia">
+				<div class="titulo_icono">
+					<img src="./assets/img/travelicon.svg" alt="Icono de maleta">
+					<h2>Experiencia</h2>
+				</div>
+				<div id="trabajos">
+					<div class="trabajo">
+						<h3>Azimut</h3>
+						<p>2009</p>
+						<p>Responsabilidad:</p>
+						<ul>
+							<li>Work with API.REST</li>
+							<li>PHP</li>
+						</ul>
+					</div>
+					<div class="trabajo">
+						<h3>Autis</h3>
+						<p>2011</p>
+						<p>Responsabilidad:</p>
+						<ul>
+							<li>PHP</li>
+							<li>BD</li>
+						</ul>
+					</div>
+					<div class="trabajo">
+						<h3>2Bytes</h3>
+						<p>2012</p>
+						<p>Responsabilidad:</p>
+						<ul>
+							<li>Frontend</li>
+							<li>CSS</li>
+							<li>JS</li>
+						</ul>
+					</div>
+				</div>
+				<a href="#nav_bar"><img class="hacia_arriba" src="./assets/img/handicon.svg" alt="Icono para ir hacia arriba"></a>	
+			</section>
+			<br>
+			<hr>
+			<section id="idiomas">
+				<div class="titulo_icono">
+					<img src="./assets/img/chat.svg" alt="Icono de chat">
+					<h2>Idiomas</h2>
+				</div>
+				<div id="nivel_idiomas">
+					<div class="idioma">
+						<label for="castellano">Castellano:</label>
+						<meter id="castellano_bar" value="0.85">85%</meter>
+					</div>
+					<div class="idioma">
+						<label for="valenciano">Valenciano:</label>
+						<meter id="valenciano_bar" value="0.90">90%</meter>
+					</div>
+					 <div class="idioma">
+						<label for="ingles">Ingles:</label>
+						<meter id="ingles_bar" value="0.55">55%</meter>
+					 </div>
+				</div>
+				<h3 style="margin-left: 50px">Nivel Ingles:</h3>	
+				<table id="nivel_ingles">
+					<tr>
+						<th colspan="2">Entendimiento</th>
+						<th colspan="2">Escucha</th>
+						<th>Escribir</th>
+					</tr>
+					<tr>
+						<td>Escuchar</td>
+						<td>Leer</td>
+						<td>Interacción hablando</td>
+						<td>Producción de habla</td>
+					</tr>
+					<tr>
+						<td>A2</td>
+						<td>A2</td>
+						<td>A2</td>
+						<td>A2</td>
+						<td>A2</td>
+					</tr>
+				</table>
+				<p><cite id="ingles_europa">Niveles: A1 y A2: Nivel Basico - B1 y B2: Nivel Medio - C1 y C2: Nivel Avanzado</cite></p>	
+				<a href="#nav_bar"><img class="hacia_arriba" src="./assets/img/handicon.svg" alt="Icono para ir hacia arriba"></a>
+			</section>
+			<br>
+			<hr>
+			<section id="habilidades_comunicacion">
+				<div class="titulo_icono">
+					<img src="./assets/img/comunicacionicono.svg" alt="Icono de comunicacion">
+					<h2>Habilidades Comunicación</h2>
+				</div>	
+				<ul>
+						<li>Habiliad para tomar decisiones</li>
+						<li>Habilidad para trabajar en equipo</li>
+						<li>Buenas habilidades de comunicación</li>
+						<li>Apasionado del trabajo</li>
+				</ul>
+				<a href="#nav_bar"><img class="hacia_arriba" src="./assets/img/handicon.svg" alt="Icono para ir hacia arriba"></a>	
+			</section>
+			<br>
+			<hr>
+			<section id="habilidades_trabajo">
+				<div class="titulo_icono">
+					<img src="./assets/img/edificioicono.svg" alt="Icono de un edificio">
+					<h2>Habilidades Trabajo</h2>
+				</div>	
+				<ul>
+					<li>Comunicación</li>
+					<li>Habilidad para trabajar bajo presión</li>
+					<li>Maquetación en HTML y CSS</li>
+					<li>Programación en JS y VUE</li>
+					<li>Programación Backend en PHP y Laravel</li>
+				</ul>
+				<a href="#nav_bar"><img class="hacia_arriba" src="./assets/img/handicon.svg" alt="Icono para ir hacia arriba"></a>
+			</section>
+			<br>
+			<hr>
+		</section>
+	</main>
+</body>
+</html>
