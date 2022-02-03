@@ -47,7 +47,7 @@ section#ventas {
 }
 
 section#ventas article {
-    border: 10px solid blue;
+    border: 5px solid blue;
     margin-bottom: 2rem;
     padding-top: 2rem;
     text-align: center;
@@ -64,9 +64,46 @@ section#ventas article p button{
 @media (min-width: 768px) {
     header h1 {
         color: blue;
+        text-align: left;
     }
 
     header img {
         display: block;
+    }
+
+    nav#principal {
+        text-align: center;
+    }
+
+    nav#principal ul li {
+        display: inline-block;
+    }
+
+    nav#principal ul li a {
+        padding: 1rem 3rem;
+    }
+
+    main section#texto {
+        column-count: 2;
+    }
+
+    main section#texto p,h3 {
+        color: blue;
+    }
+
+    section#ventas {
+        column-count: 2;
+    }
+
+    section#ventas article {
+        width: 20rem;
+    }
+
+    section#ventas article p:nth-child(3) {
+        text-transform: uppercase;
+    }
+
+    section#ventas article p,button {
+        color: blue;
     }
 }
